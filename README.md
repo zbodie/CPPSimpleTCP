@@ -1,5 +1,7 @@
 ## CPPSimpleTCP
-This project contains Visual Studio projects for a client/server application.  The application currently only builds on Windows.  This code is based off of the [MSDN sample winsock code.](https://msdn.microsoft.com/en-us/library/windows/desktop/ms737591%28v=vs.85%29.aspx?f=255&MSPPError=-2147217396)
+This project contains Visual Studio projects for a client/server application.  The application currently only builds on Windows.  This code is based off of the [MSDN sample winsock code.](https://msdn.microsoft.com/en-us/library/windows/desktop/ms737591%28v=vs.85%29.aspx?f=255&MSPPError=-2147217396)  
+  
+The projects were created using VS2015.  If using a different version, you may have to change the Platform Toolset of each project.
 
 #### SimpleTCPServer
 After building, run the executable generated.  The server will wait for a connection from a client and will print every message sent to it to the command line  
