@@ -23,7 +23,7 @@ To Run:
 ```./a.out ```  
   
 #### SimpleTCPServer_unix  
-Port of SimpleTCPClient for unix platforms.  
+Port of SimpleTCPClient for unix platforms.  This is heavily based upon a [Linux HowTo.](http://www.linuxhowtos.org/C_C++/socket.htm)
   
 To Build:  
 ```g++ Client.cpp```  
